@@ -15,7 +15,7 @@ jobs:
       - run:
           name: run links tests
           command: |
-            awesome_bot README.md --base-url https://github.com/ilobug/soap_2018_new/blob/$CIRCLE_BRANCH/
+            awesome_bot README.md --allow-dupe --base-url https://github.com/ilobug/soap_2018_new/blob/$CIRCLE_BRANCH/
 workflows:
    version: 2
    commit:
